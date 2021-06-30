@@ -1,0 +1,13 @@
+.text {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 1.063rem;
+    line-height: 1.563rem;
+    color: #A9B0BE;
+    &__normal-w {
+        font-weight: 400;
+    }
+    &__medium-s {
+        font-size: 1.313rem;
+    }
+}

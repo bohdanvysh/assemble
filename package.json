@@ -1,0 +1,32 @@
+{
+  "name": "assemble-landing",
+  "version": "1.0.0",
+  "description": "another landing practice, focus on 3d postioning",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "fraction.js": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^3.4.0",
+    "nanoid": "^3.1.23",
+    "source-map-js": "^0.6.2"
+  },
+  "scripts": {
+    "test": "assemble"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohdanvysh/assemble.git"
+  },
+  "keywords": [
+    "3D",
+    "Postioning",
+    "Practice"
+  ],
+  "author": "Bohdan Vyshnevskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohdanvysh/assemble/issues"
+  },
+  "homepage": "https://github.com/bohdanvysh/assemble#readme"
+}
