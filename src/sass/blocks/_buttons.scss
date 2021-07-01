@@ -1,0 +1,54 @@
+.btn {
+    &_block-main {
+        width: 13.188rem;
+        height: 4.125rem;
+        background: $green-2;
+        border: 2px solid $sub-elem-color;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 0px $sub-elem-color;
+        border-radius: 3.75rem;
+        font-weight: 400;
+        font-size: 1.313rem;
+        text-align: center;
+        color: $sub-elem-color;
+    }
+    &_block-sub {
+        width: 7.938rem;
+        height: 3rem;
+        border: 2px solid $sub-elem-color;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 2px 0px #000);
+        border-radius: 30px;
+        background: #21ABA8;
+        font-weight: 700;
+        font-size: 1.063rem;
+        text-align: center;
+        color: #000;
+    }
+    &_header {
+        &_sigh-in {
+            width: 8.75rem;
+            height: 2.5rem;
+            border: 2px solid $green-1;
+            box-sizing: border-box;
+            border-radius: 30px;
+            font-family: 'IBM Plex Sans';
+            font-weight: 400;
+            font-size: 0.875rem;
+            text-align: center;
+            color: $green-1;
+        }
+        &_request-demo {
+            width: 8.438rem;
+            height: 2.5rem;
+            background: $green-2;
+            border-radius: 30px;
+            border: none;
+            font-family: 'IBM Plex Sans';
+            font-weight: 400;
+            font-size: 0.875rem;
+            text-align: center;
+            color: $sub-elem-color;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.pre-header {
+    background: $green-2;
+    height: 2.5rem;
+    &_content {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+        &_text {
+            font-family: 'IBM Plex Sans';
+            font-size: 0.825rem;
+            color: $sub-elem-color;
+        }
+        &_link {
+            text-decoration: none;
+            margin-left: 1rem;
+            transform: translateY(-0.25rem);
+        }
+    }
+}
