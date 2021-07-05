@@ -1,11 +1,14 @@
 .text {
     font-family: 'IBM Plex Sans';
     font-weight: 700;
-    font-size: 1.063rem;
+    font-size: 1.063rem; /*17px*/
     line-height: 1.563rem;
     color: #A9B0BE;
     &__weight-n {
         font-weight: 400;
+    }
+    &__size-s {
+        font-size: 0.875rem; /*14px*/
     }
     &__size-m {
         font-size: 1.313rem; /*21px*/
