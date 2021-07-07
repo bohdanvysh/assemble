@@ -1,0 +1,19 @@
+.forecasts {
+    background: #000;
+    height: 49.313rem;
+    padding-top: 3.125rem;
+    padding-bottom: 8.375rem;
+    &_content {
+        &_case {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &_text {
+                color: $green-2;
+            }
+            &_img {
+                transform: translate(90%, -40%);
+            }
+        }
+    }
+}
