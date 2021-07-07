@@ -1,4 +1,7 @@
 .btn {
+    &:focus {
+        outline: none;
+    }
     &_block-main {
         width: 13.188rem;
         height: 4.125rem;
