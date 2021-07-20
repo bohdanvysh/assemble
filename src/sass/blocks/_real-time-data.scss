@@ -1,0 +1,50 @@
+.real-time-data {
+    padding-top: 9.813rem;
+    padding-bottom: 12.5rem;
+    background: #000;
+    &_content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        &_img {
+            position: relative;
+            z-index: 4;
+            width: 35rem;
+            height: 23.625rem;
+        }
+        &_descr {
+            transform: translateX(-27%);
+        }
+        &_block-1 {
+            width: 35rem;
+            height: 23.625rem;
+            position: absolute;
+            bottom: 0.95%;
+            left: 9.21%;
+            z-index: 3;
+            background: $green-1;
+            border: 2px solid $sub-elem-color;
+        }
+        &_block-2 {
+            width: 35rem;
+            height: 23.75rem;
+            position: absolute;
+            bottom: 2.5%;
+            left: 9.7%;
+            z-index: 2;
+            background: $green-3;
+            border: 2px solid $sub-elem-color;
+        }
+        &_block-3 {
+            width: 35rem;
+            height: 23.75rem;
+            position: absolute;
+            bottom: 4.5%;
+            left: 10.2%;
+            z-index: 1;
+            background: $sub-elem-color-2;
+            border: 2px solid $sub-elem-color;
+        }
+    }
+}

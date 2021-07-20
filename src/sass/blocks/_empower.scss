@@ -1,0 +1,78 @@
+.empower {
+    position: relative;
+    background: #000;
+    &_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        &_text {
+            margin-top: 1rem;
+        }
+    }
+    &_features {
+        margin-top: 1.375rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 10.313rem;
+        padding-right: 8.438rem;
+        padding-bottom: 6.125rem;
+        &_item-1 {
+            display: flex;
+            align-items: center;
+            &_img {
+                margin-top: 1.25rem;
+                transform: translateY(-60%);
+            }
+            &_text {
+                transform: translateX(7%);
+            }
+        }
+        &_item-2 {
+            position: relative;
+            z-index: 4;
+        }
+    }
+    &_item-block {
+        position: absolute;
+        width: 30.625rem;
+        height: 18.438rem;
+        border: 2px solid $sub-elem-color;
+        &_1 {
+            bottom: 10.5%;
+            left: 19.7%;
+            z-index: 3;
+            background: $green-1;
+        }
+        &_2 {
+            bottom: 12%;
+            left: 20.1%;
+            z-index: 2;
+            background: $green-3;
+        }
+        &_3 {
+            bottom: 13.5%;
+            left: 20.5%;
+            z-index: 1;
+            background: $sub-elem-color-2;
+        }
+        &_4 {
+            bottom: 10.7%;
+            right: 22.3%;
+            z-index: 3;
+            background: $green-1;
+        }
+        &_5 {
+            bottom: 12.2%;
+            right: 22.7%;
+            z-index: 2;
+            background: $green-3;
+        }
+        &_6 {
+            bottom: 13.5%;
+            right: 23.1%;
+            z-index: 1;
+            background: $sub-elem-color-2;
+        }
+    }
+}
