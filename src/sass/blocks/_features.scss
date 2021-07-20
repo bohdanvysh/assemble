@@ -1,0 +1,35 @@
+.features {
+    background: #000;
+    padding-bottom: 11.625rem;
+    &_title {
+        text-align: center;
+        letter-spacing: 2.5px;
+    }
+    &_content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 4.813rem;
+        padding-left: 8.600rem;
+        &_item {
+            &_icon {
+                width: 1.156rem;
+                height: 0.938rem;
+            }
+            &_title {
+                margin-top: 1.188rem;
+                color: #fff;
+            }
+            &_text {
+                margin-top: 0.563rem;
+                &_link {
+                    color: $green-1;
+                    text-decoration: underline;
+                    transition: 0.7s all;
+                    &:hover {
+                        color: #387059;
+                    }
+                }
+            }
+        }
+    }
+}

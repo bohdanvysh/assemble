@@ -1,0 +1,23 @@
+.pre-footer {
+    display: flex;
+    background: #000;
+    &_block-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 62.5rem;
+        height: 25.813rem;
+        background: $green-1;
+        border: 2px solid $sub-elem-color;
+        &_btn {
+            margin-top: 2.063rem;
+        }
+    }
+    &_block-2 {
+        width: 60.625rem;
+        height: 22.438rem;
+        transform: translateX(1.56%);
+        background: #21ABA8;
+    }
+}
