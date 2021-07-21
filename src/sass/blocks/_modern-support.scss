@@ -29,6 +29,10 @@
             }
             &_btn {
                 margin-top: 1.25rem;
+                transition: 0.7s all;
+                &:hover {
+                    box-shadow: 0 0 30px #000;
+                }
             }
         }
         &_second-block {
