@@ -1,0 +1,31 @@
+.footer {
+    background: $sub-elem-color;
+    padding: 3.125rem 7.5rem;
+    &_logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &_info {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 3.063rem;
+        &_col {
+            &_title {
+                margin-bottom: 1.313rem;
+            }
+            &_link {
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            &_item {
+                transition: 0.7s all;
+                color: #D3D8E1;
+                &:hover {
+                    color: #96a1b6;
+                }
+            }
+        }
+    }
+}
